@@ -1,13 +1,82 @@
-// TODO: Include packages needed for this application
+var inquirer = require('inquirer');
 
-// TODO: Create an array of questions for user input
-const questions = [];
+const questions = [
+    {
+        type: 'input',
+        name: 'projectTitle',
+        message: 'Project Title:',
+        default: "My Project"
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'Project Description:',
+    },
+    {
+        type: 'input',
+        name: 'installInstructions',
+        message: 'Installation Information:',
+    },
+    {
+        type: 'input',
+        name: 'usageInfo',
+        message: 'Usage Information:',
+    },
+    {
+        type: 'input',
+        name: 'contributionGuidelines',
+        message: 'Contribution Guidelines:',
+    },
+    {
+        type: 'input',
+        name: 'testInstructions',
+        message: 'Test Instructions:',
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'What License is Your Project Under?',
+        choices: [
+            'Apache License 2.0',
+            'GNU GPLv3',
+            'GNU AGPLv3',
+            'GNU LGPLv3',
+            'Mozilla Public License 2.0',
+            'Boost Software License 1.0',
+            'MIT License',
+            'ISC License',
+            'The Unlicense',
+        ]
+    },
+    {
+        type: 'input',
+        name: 'gitHubUser',
+        message: 'Github Username:',
+    },
+    {
+        type: 'input',
+        name: 'userEmail',
+        message: 'Email Address:',
+    }
+];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) { }
 
-// TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer
+        .prompt(questions)
+        .then((answers) => {
+            console.log(answers);
+        })
+        .catch((error) => {
+            if (error.isTtyError) {
+                console.log("Could not be rendered in current environment")
+            } else {
+                console.log("Something went horribly wrong")
+            }
+        });
+}
 
 // Function call to initialize app
 init();

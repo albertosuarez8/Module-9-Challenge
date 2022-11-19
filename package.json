@@ -1,0 +1,22 @@
+{
+  "name": "module-9-challenge",
+  "version": "1.0.0",
+  "description": "README Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertosuarez8/Module-9-Challenge.git"
+  },
+  "author": "Alberto Suarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albertosuarez8/Module-9-Challenge/issues"
+  },
+  "homepage": "https://github.com/albertosuarez8/Module-9-Challenge#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
