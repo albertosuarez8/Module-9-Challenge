@@ -46,7 +46,8 @@ const questions = [
             'MIT License',
             'ISC License',
             'The Unlicense',
-        ]
+        ],
+        default: "MIT License"
     },
     {
         type: 'input',
