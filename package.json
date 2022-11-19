@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/albertosuarez8/Module-9-Challenge#readme",
   "dependencies": {
-    "inquirer": "^8.2.4"
+    "inquirer": "^8.2.4",
+    "mustache": "^4.2.0"
   }
 }

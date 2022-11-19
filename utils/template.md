@@ -32,8 +32,9 @@
 
 ## Questions
 
-- [{{gitHubUser}}](https://github.com/{{githubUser}})
-- Please send me an email at {{userEmail}} if you have any further questions.
+If you have any further questions, please reach out to me using the following contact methods:
+- Github: [{{gitHubUser}}](https://github.com/{{gitHubUser}})
+- Email: {{userEmail}}
 
 ## License 
 

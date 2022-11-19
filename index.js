@@ -1,4 +1,5 @@
 var inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 const questions = [
     {
@@ -61,20 +62,19 @@ const questions = [
     }
 ];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
-
 function init() {
     inquirer
         .prompt(questions)
         .then((answers) => {
             console.log(answers);
+            generateMarkdown(answers);
         })
         .catch((error) => {
             if (error.isTtyError) {
                 console.log("Could not be rendered in current environment")
             } else {
                 console.log("Something went horribly wrong")
+                console.log(error)
             }
         });
 }
