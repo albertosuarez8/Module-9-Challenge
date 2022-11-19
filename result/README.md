@@ -1,8 +1,10 @@
-# Pin App
+# Testing
+
+[![License](https:&#x2F;&#x2F;img.shields.io&#x2F;badge&#x2F;License-MIT-yellow.svg)](https:&#x2F;&#x2F;opensource.org&#x2F;licenses&#x2F;MIT)
 
 ## Description
 
-This application will solve all your forgotten past memories. With this app you will enjoy life so much more!
+Testing
 
 ## Table of Contents
 
@@ -16,24 +18,25 @@ This application will solve all your forgotten past memories. With this app you 
 
 ## Installation
 
-Download this on the Apple Appstore! (Stadia app coming soon)
+Testing
 
 ## Usage
 
-Make sure to USE it with your family
+Testing
 
 ## Contributing
 
-NO contributers are allowed unless you are bran and or glub and or go
+Testing
 
 ## Tests
 
-NO contributers are allowed unless you are bran and or glub and or god
+Testing
 
 ## Questions
 
-- [albertosuarez8](https://github.com/albertosuarez8)
-- Please send me an email at alberto.suarez8@outlook.com if you have any further questions.
+If you have any further questions, please reach out to me using the following contact methods:
+- Github: [Testing](https://github.com/Testing)
+- Email: Testing
 
 ## License 
 

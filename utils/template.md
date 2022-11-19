@@ -1,5 +1,7 @@
 # {{projectTitle}}
 
+[![License]({{icon}})]({{link}})
+
 ## Description
 
 {{description}}
