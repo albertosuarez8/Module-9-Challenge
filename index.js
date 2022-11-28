@@ -66,7 +66,6 @@ function init() {
     inquirer
         .prompt(questions)
         .then((answers) => {
-            console.log(answers);
             generateMarkdown(answers);
         })
         .catch((error) => {
