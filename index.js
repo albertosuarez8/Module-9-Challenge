@@ -1,6 +1,7 @@
 var inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
+// Using the inquirer npm this array of obj contains the questions that are asked in the application
 const questions = [
     {
         type: 'input',
@@ -62,6 +63,7 @@ const questions = [
     }
 ];
 
+// Once the application begins it will run the following function which asks the questions above
 function init() {
     inquirer
         .prompt(questions)

@@ -22,6 +22,8 @@ In order for a user to use this application they must have node.js initialized w
 
 Once the proper packages have been installed. Go to the main root of the folder and invoke the application by using the following command: node index.js , It will prompt the user with a series of questions and once answered, the generated README will appear in the result folder.
 
+[Demo on how to use the application](https://drive.google.com/file/d/14HqJYEe6cs-ps5Q0IbNqQq7CEJUu-2-T/view)
+
 ## Contributing
 
 If you would like to contribute please follow the following guidelines: [Contributor Covenant](https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;).

@@ -1,5 +1,7 @@
 let fs = require("fs");
+// This application uses mustache to fill out template README and create a new one with the new data
 let { render } = require("mustache");
+// Obj containing all badges for common licenses
 let badges = {
   "Apache License 2.0": {
     icon: "https://img.shields.io/badge/License-Apache%202.0-blue.svg",
@@ -43,11 +45,14 @@ let badges = {
 function generateMarkdown(data) {
   data.icon = badges[data.license].icon
   data.link = badges[data.license].link
+  // Creates the template into a string
   let template = fs.readFileSync("./utils/template.md").toString();
+  // Adds the data into the template using the render method
   let output = render(template, data);
   writeToFile("README", output);
 }
 
+// Creates a README file with the data sent from the application
 function writeToFile(fileName, data) {
   fs.writeFileSync(`./result/${fileName}.md`, data);
 }
